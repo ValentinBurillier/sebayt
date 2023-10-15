@@ -1,0 +1,4 @@
+# ignore tous les fichiers au format mp4
+*.mp4
+#ignore le dossier videos
+videos/

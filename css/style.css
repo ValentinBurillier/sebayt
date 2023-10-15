@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* START RESET*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+h1, h2, h3 {
+  color: white;
+  background-color: black;
+}
+/* END RESET*/
+
+/* START HEADER */
+.header {
+  border-bottom: 1px solid red;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  z-index: 1;
+}
+.header__img {
+  width: 3rem;
+}
+.header__link {
+  font-size: 0.7rem;
+}
+@media screen and (min-width: 768px) {
+  .header__link {
+    text-transform: uppercase;
+  }
+}
+.header__link:hover {
+  color: inherit;
+  border-bottom: 1px solid black;
+}
+/* END HEADER */
+
+/* START MAIN */
+.main__div {
+  position: relative;
+  max-width: 100%;
+}
+#myVideo {
+  width: 100%;
+}
+.main__p {
+  visibility: hidden;
+  position: absolute;
+  font-size: 6vh;
+  letter-spacing: 5px;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+@media screen and (min-width: 1200px) {
+  .main__p {
+    transition: 10s;
+    visibility: visible;
+  }  
+}
+@media screen and (min-width: 820px) {
+  .conf110223 {
+    width: 75vw;
+  }
+}
+
+.presentation__p {
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px grey;
+  background: radial-gradient(rgb(255, 0, 0, 0.1), rgb(255, 255, 0, 0.));
+}
+.presentation__p:hover {
+  transition: 2s;
+  transform: translateY(0.5rem);
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 5px 5px black;
+  font-weight: 400;
+}
+@media screen and (min-width: 482px) {
+  .img__conf110223 {
+    display: none;
+  }
+}
+
+.container__linkAdhésion {
+  background: linear-gradient(rgb(128, 128, 128, 0.1), rgb(255, 255, 255, 0.9));
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(0, 0, 0, 0.5);
+}
+.container__linkAdhésion:hover {
+  transform: translateY(5px);
+  box-shadow: 3px 3px rgb(0, 0, 0, 0.6);
+  background: radial-gradient(90deg,white, rgb(0, 0, 0, 0.2));
+}
+.link__bulletinAdhésion::before {
+  content: "💾";
+} 
+.link__bulletinAdhésion::after {
+  font-size: 2vh;
+  content: "329Ko";
+}
+.main__h1 {
+  font-size: 4vh;
+}
+.main__section {
+  gap: 0px 20px;
+}
+.section__img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  object-fit: contain;
+}
+.imgMaxWidth {
+  max-width: 339px;
+}
+.section__img:hover {
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.5);
+  transform: translateY(1.5vh);
+  opacity: 0.9;
+}
+@media screen and (max-width: 1070px) {
+  .display__img {
+    display: none;
+  }
+}
+@media screen and (min-width: 1789px) {
+  .main__section {
+    gap: 0px 4rem;
+  }
+}
+.section__p:hover {
+  opacity: 0.7;
+}
+/* END MAIN */
