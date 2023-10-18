@@ -7,9 +7,9 @@ if (params.has("password")) {
    // Utiliser la valeur du mot de passe comme vous le souhaitez
    if (pass === 'sebayt') {
      document.cookie = 'SebaytAccess=yes';
-     window.location.href = '../espace-adherents.html';
+     window.location.href = '../navigation/espace-adherents.html';
      console.log("Mot de passe : " + pass);
    } else {
-    window.location.href = '../login.html';
+    window.location.href = '../connexion/login.html';
    }
 }
