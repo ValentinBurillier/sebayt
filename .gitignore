@@ -2,3 +2,5 @@
 *.mp4
 #ignore le dossier videos
 videos/
+# exclure tous fichiers mp4 sauf un seul
+!assets\videos\pexels-juancarlos-córdova-7575359.mp4
