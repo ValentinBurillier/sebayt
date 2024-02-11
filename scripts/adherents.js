@@ -1,5 +1,4 @@
 import { themeColor } from './theme.js';
-<<<<<<< HEAD
 
 const mainSection = document.getElementsByClassName('main__interviews_list')[0];
 
@@ -42,8 +41,6 @@ for(let i = 0; i < miniatures_interviews.length; i++) {
   img.src = miniatures_interviews[i];
   link.appendChild(img);
 }
-=======
->>>>>>> adherents-responsive
 function changeTheme() {
   
   let iconTheme = document.getElementsByClassName('btn-theme')[0];
