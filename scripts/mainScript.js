@@ -4,6 +4,9 @@ function changePays() {
   const getUrl = window.location.pathname;
     if(img.lang === 'en') {
       switch(getUrl) {
+        case "/sebayt/":
+          document.location.href = "/sebayt/pages/en/home.html";
+          break;
         case "/sebayt/index.html":
           document.location.href = "/sebayt/pages/en/home.html";
           break;
