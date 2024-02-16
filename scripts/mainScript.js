@@ -24,6 +24,9 @@ function changePays() {
             console.log('bravo');
             document.location.href = "/sebayt/pages/navigation/evenements.html";
             break;
+          case "/sebayt/pages/en/member-area.html":
+            document.location.href = "/sebayt/pages/navigation/espace-adherents.html";
+            break;
         }
       }
     }
